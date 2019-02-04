@@ -27,7 +27,7 @@ public class ListExample extends Frame{
 		l1.add("GO");
 		
 		
-		l2=new List(4,false);
+		l2=new List(4,true);	//true means can select multiple items
 		l2.setBounds(100,300,300,100);
 		l2.add("1");
 		l2.add("2");
